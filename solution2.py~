@@ -1,0 +1,7 @@
+import sys
+num_steps = int(sys.argv[1])
+
+for num in range(num_steps):
+    print(num, " " * (num_steps - num - 1), "#" * (num + 1), sep = "")
+    
+
